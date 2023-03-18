@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <style>
+    .image {
+      background-image: url(garden3.jpg);
+      background-size: cover;
+      height: 100px;
+    }
+
+    .nav-link {
+      color: black;
+      font-weight: 600;
+    }
+
+    .para {
+      position: absolute;
+      top: 428px;
+      text-align: center;
+    }
+
+    /* login form */
+    .contact {
+      justify-content: center;
+    }
+
+    .form {
+      /* width:440px; */
+      padding: 4%;
+      border-radius: 20px;
+      background: rgb(12,12,12);
+      box-shadow: 0px 5px 10px 0px rgb(69, 132, 133) 1px 3px 4px 0px rgb(69, 192, 122);
+    }
+
+    .box {
+      margin-top: 20px;
+      text-align: center;
+      color: white;
+
+    }
+
+    input,
+    textarea {
+      margin: 10px;
+      width: 290px;
+      border-radius: 20px;
+      border: 2px solid rgb(69, 181, 193);
+      text-align: center;
+      color: rgb(246, 243, 243);
+      background: none;
+      outline: rgb(224, 149, 50);
+      padding: 5px;
+    }
+
+    input[type="text"]:hover {
+      border: 2px solid orange;
+      width: 320px;
+      transition: 0.7s ease all;
+    }
+
+    textarea[name="message"]:hover {
+      border: 2px solid orange;
+      width: 320px;
+      transition: 0.7s ease all;
+    }
+
+    .btn {
+      width: 230px;
+      border: 2px solid rgb(25, 162, 196);
+      background: none;
+      color: rgb(246, 243, 243);
+      font-size: 20px;
+      border-radius: 20px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn:hover {
+      border: 2px solid orangered;
+      transition: 0.5s ease;
+    }
+
+    ::placeholder {
+      color: white
+    }
+    .main{
+        background-color: lightgray;
+        background-size: cover;
+        height: 50vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <a style="width:50%" class="navbar-brand" href="merrigegarden.html"><img class="img-fluid" src="garden12jpeg.jpeg" alt=""
+          width="25%"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-5">
+          <li class="nav-item active p-2">
+            <a class="nav-link" href="merrigegarden.html">HOME</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link " href="#about">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              OUR SERVICECS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Wedding Venue</a>
+              <a class="dropdown-item" href="#">Engagement Program</a>
+              <a class="dropdown-item" href="#">Reception</a>
+              <a class="dropdown-item" href="#">Decoration</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Hall for Birthday Events.</a>
+              <a class="dropdown-item" href="#">AC Rooms for Visitors Stay</a>
+            </div>
+          </li>
+
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#">GALLERY</a>
+          </li>
+
+          <li class="nav-item p-2">
+            <a class="nav-link" href="#contact">CONTACT US</a>
+
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <img src="garden3.jpg" alt="" style="height:530px ; width: 100%;">
+    </div>
+  </div>
+  <div class="col-sm-12 text-center">
+    <img src="bride.jpg" alt="" width="10%" style="margin-top:-60px; border-radius:100px">
+  </div>
+  <div class="container-fluid">
+    <p style="color:rgb(4, 11, 4);  text-align:center;font-size: larger;">LET'S PLAN YOUR PERFECT EVENT</p>
+    <p style="text-align: center;font-size: x-large;"><b> AFFORDABLE & LUXURY MARRIAGE GARDEN IN MIHONA </b></p>
+    <div class="text-center"><img src="heading.png" alt=""></div>
+    <p style="text-align: center;">As An Engaged Couple With The Wedding Date In Hand, You Cannot Help But Spend All
+      Your
+      Time <span style="color: rgb(222, 84, 107);"> Thinking About The Best Marriage Garden In Mihona.</span> <br> You
+      Make Sure The Venue Satisfies All Your Wedding Needs From Decoration To Catering, Parking, Power Back-Up To Music,
+      And Ensuring All The Guests Arrive And Leave Happily. <br><span STYLE="color: rgb(222, 84, 107);"> CHATURVEDI
+        MARRIGE GARDEN </span> Has It All, Perfect For Couples Who Want To Have A Picture-Perfect Wedding Indoor Or
+      Outdoor. </p>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img class="img-fluid" src="blog1.webp" alt="" style="border-radius: 50px;">
+    </div>
+    <div class="col-md-6 my-5 text-center">
+      <h2>Sangeet Sandhya at CHATURVEDI GARDEN</h2><br>
+      <p>An evening to celebrate the union of families and friends, come to dance, <br> sing, and have all sorts of
+        enjoyment with all your near and dear ones at our Marriage Garden.</p>
+      <br>
+      <button style="border-radius: 10%; background-color:#761f56; padding: 1%; color:white">READ MORE</button>
+    </div>
+  </div>
+  <!-- content -->
+  <div class="row">
+    <div class="col-md-6 text-center my-5">
+      <h2 class="pt-4">Wedding Reception</h2><br>
+      <p class="pl-3" style="text-align: justify;"> Marriages are a holy procession where two souls take an oath to care
+        for each other and promise to stay
+        together. Similarly, Bhavya Manoram promises to take care of your wedding and reception because our Wedding
+        Garden is fully capable of managing all your events and guests at once effectively</p><br>
+      <button style="border-radius: 10%;background-color:#761f56; padding: 1%; color:white">READ MORE</button>
+    </div>
+    <!-- image -->
+    <div class="col-md-6 text-center">
+      <img class="img-fluid" src="reception.h" alt="" style="border-radius: 10%; width:70%;">
+    </div>
+  </div>
+  <!-- image -->
+  <div class="row">
+    <div class="col-md-6 text-center my-5">
+      <img class="img-fluid" src="ringceremony.jpg" alt="" style="border-radius: 10%; width:80%;">
+    </div>
+    <!-- content -->
+    <div class="col-md-6 text-center my-5">
+      <h2>A PERFECT WEDDING VENUE</h2>
+      <p class="pr-3" style="text-align: justify;">We Are An Ideal Wedding Place In Mihona, Perfect For Your Grand
+        Wedding. Equipped With Luscious <br> Green Lawns,
+        We Are Spacious And Comfortable. We Offer All The Essential Facilities Like Catering, Decorations, Music,
+        Parking,
+        Power-Backup, etc. Required For A Wedding Ceremony And Other Events. <br> We Have Been A Perfect Choice For
+        Several Happy Clients Now.</p>
+      <button style="border-radius: 10%;background-color:#761f56; padding: 1%; color:white">READ MORE</button>
+    </div>
+  </div>
+  </div>
+  <!-- content -->
+  <div class="cotainer-fluid" id="about">
+    <div class="row">
+  <div class="col-md-12 text-center my-5">
+    <h3>GARDEN & BANQUETS</h3>
+    <h1>A PERFECT WEDDING VENUE</h1>
+    <img src="heading.png" alt="" width="20%">
+</div>
+</div>
+<div class="row">
+  <div class="col-md-12 text-center main py-3">
+    <H2>ABOUT US</H2>
+    <!-- <img src="heading.png" alt=""> <br><br> -->
+    <h3 style="color:rgb(234, 162, 18); font-style:italic;">CHATURVEDI MARRIGE GARDEN</h3>
+    <img src="heading.png" alt="">
+    <p style="font-size: large; font-family: cursive;">Our Family Welcomes Your Family. A CHATURVEDI Marriage Garden & Banquet Is One In All The Foremost Sought-after Venues Within The City And Offers Unparalleled Services For your amazing Weddings And Other Ceremonies that you wish. A Treat to Your Guests With The Royal Feast Of Luxury Services. The Decor department Take Care Of The Decoration For Your Big Day Allowing You To Take A Seat Back To Enjoy Your Function. Our Banquet Halls Are Elegantly Decorated And Are Perfect For Your Pre-wedding And Wedding Ceremonies. An Ideal Wedding Venue To Supply You And Your Guests All The Advantages Of A Purposeful, Comfortable, And High-end Outdoor Wedding. CHATURVEDI Garden & Banquets Is Well Equipped With Rooms, Wide Parking, Wedding Lawn, Pre-function And Far More. Your Memories are our responsiblity now!</p>
+    <button style="border-radius: 10%;background-color:#761f56; padding: 1%; color:white">READ MORE</button>
+
+  </div>
+</div>
+  </div>
+
+  <div class="container-fluid text-center contact" id="contact"
+    style="background-image: url(resume/background.jpg); background-size: cover; height: 80vh;">
+    <div class="row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4 mt-3">
+        <h2 class="text-white">CONNECT WITH YOUR ADVISOR</h2>
+        <img src="heading.png" alt="" class="pb-4">
+        <form action="" class="form">
+          <div id="box">
+            <input type="text" placeholder="Name"><br>
+            <input type="text" placeholder="Mobile"><br>
+            <input type="text" name="" id="" placeholder="Email"><br>
+            <textarea name="message" id="" cols="25" rows="5">Type Your Message Here...</textarea><br>
+            <button class="btn">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4"></div>
+    </div>
+  </div>
+  <div class="container-fluid mt-4">
+    <div class="row"> 
+      <div class="col-md-12 text-center bg-secondary py-4">
+        <img src="dil.png" alt="" width="8%" style="border-radius: 15%;"> <br> <br>
+        <h3 style="font-style:unset; font-family:Georgia, 'Times New Roman', Times, serif;"> A Venue With all The  amenities under One Roof Which Made Our Function Memorable </h3>
+      </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="container-fluid mt-4">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <p><i class="fa-solid fa-location-dot fa-4x" style="color: rgb(43, 154, 194);"></i></p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1788.663329389463!2d78.98060200615001!3d26.283508399999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39764165e5286fcf%3A0x95952659a4164906!2sChaturvedi%20marriage%20garden!5e0!3m2!1sen!2sin!4v1679120026028!5m2!1sen!2sin" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-4">
+          <span><i class="fa-brands fa-whatsapp fa-4x" style="color: rgb(37, 167, 37);"></i></span>
+          <h5 class="pt-4">+91 98930-96230</h5>
+          <h5>+91 91093-27328</h5>
+        </div>
+        <div class="col-lg-4">
+          <span><i class="fa-sharp fa-solid fa-envelope fa-4x" style="color: rgb(180, 43, 33);"></i></span>
+          <h5 class="pt-4"><a href="https://www.gmail.com/" target="_blank">abhishekchaturvedi984@gmail.com</a></h5>
+        </div>
+      </div>
+      <div class="row mt-4 bg-secondary px-5 py-2">
+        <div class="col-lg-6">
+          <h6>Follow US:
+            <span><i class="fa-brands fa-facebook fa-1x px-2" style="color: rgb(35, 47, 178);"></i></span>
+            <span><i class="fa-brands fa-instagram fa-1x px-2" style="color: rgb(173, 27, 107);"></i></span>
+            <span><i class="fa-brands fa-twitter fa-1x px-2" style="color: rgb(10, 194, 219);"></i></span>
+          </h6>  
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
